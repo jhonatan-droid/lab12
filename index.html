@@ -6,23 +6,44 @@
     <title>Jhonatan_Sandoval lab8</title>
 </head>
 <body>
+    <H1>LAB12</H1>
     <script>
-        //Suma arreglo
-        arreglo = [2, 3 , 4]
+        //Parte 1 Suma arreglo
+        arreglo = [2, 3 , 4];
         console.log('El arreglo es: ', arreglo)
-        suma = 0
+        suma = 0;
         for (let i = 0; i < arreglo.length; i++) {
             suma = suma + arreglo[i];   
         }
         console.log('la suma total del arreglo es: ', suma)
-        //Promedio suma arreglo
+        //Parte 1 Promedio suma arreglo
         console.log('El arreglo es: ', arreglo)
         suma = 0
         for (let i = 0; i < arreglo.length; i++) {
             suma = suma + arreglo[i];   
         }
-        suma = suma/(arreglo.length)
+        suma = suma/(arreglo.length);
         console.log('El promedio del arreglo es: ', suma)
+        //Parte 2 numero negativo
+        n = 0;
+        while (n>=0) {
+        n=parseInt(prompt("ingrese un numero"));    
+        n = n;
+        }     
+        console.log(n)
+        //Parte 3 Do while
+        let pw = 1234;
+        let i = 1234;
+        do {
+            i=parseInt(prompt("ingrese su contraseña: "));    
+        } while (i != pw);
+        //
+        let pw2 = 1234;
+        let i2 = 1234;
+        while (i2 != pw2) {
+            i2=parseInt(prompt("ingrese su contraseña 2: "));            
+        }
+
     </script>
 </body>
 </html>
